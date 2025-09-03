@@ -1,7 +1,6 @@
 # IV_project
-Weather visualization systems
+Weather visualization systems (including three core systems)
 
-# 3. The core systems
 ## 1. System A
 System A with multi-city selection, attribute filtering, and date range control. It allows users to find weather trends in different locations and time periods. The system's dual visualization can present a line chart showing weather trends in time series and a pie chart comparing the proportional distribution of different meteorological variables. Users can customize city colors and view statistical summaries of selected data. In addition, system A separates visualization from raw data by a tabbed layout, and ensures that changes in selection criteria are immediately reflected in visualizations through responsive updates.
 
