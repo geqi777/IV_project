@@ -1,2 +1,12 @@
 # IV_project
 Weather visualization systems
+
+# 3. The core systems
+## 1. System A
+System A with multi-city selection, attribute filtering, and date range control. It allows users to find weather trends in different locations and time periods. The system's dual visualization can present a line chart showing weather trends in time series and a pie chart comparing the proportional distribution of different meteorological variables. Users can customize city colors and view statistical summaries of selected data. In addition, system A separates visualization from raw data by a tabbed layout, and ensures that changes in selection criteria are immediately reflected in visualizations through responsive updates.
+
+## 2. System B
+A streamlined weather dashboard that focuses on multi-dimensional filtering and collaborative visualization is system B, which not only implements location filtering with cross selectors, but also allows users to flexibly focus on specific data subsets through brush selection for interactive data exploration. The core feature of the system is the visual design. Through the interaction of scatter plots, bar charts and line charts, the selection in one chart will be reflected in other charts in real time. This design not only enhances the relevance of data, But also allows comprehensive analysis of weather data from multiple angles. Secondly, the dashboard adopts a modern UI design through visually attractive style cards and custom titles to present weather data in interface design.
+
+## 3. System C
+System C takes a geospatial approach to weather visualization, enabling users to analyze spatial patterns and temporal trends simultaneously by visually presenting data on a European map. The system includes filters for year, month, weather characteristics, and location, which affect the display of maps and related charts simultaneously, ensuring that users can explore data in depth from multiple dimensions. Interactive elements include brush selection and hover details, and linked bar charts and scatter plots provide additional analytical perspectives. In terms of technical architecture, system C uses a class-based design that separates data processing from visualization, which not only improves the maintainability of the system, but also combines a powerful error handling mechanism and consistent style specifications. This design ensures the stability of the system and the consistency of the user experience. System C is unique in its geospatial focus, providing insights into regional weather patterns across Europe.
